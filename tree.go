@@ -8,6 +8,8 @@ import "C"
 
 import (
 	"unsafe"
+
+	_ "github.com/tree-sitter/go-tree-sitter/src"
 )
 
 // A stateful object that this is used to produce a [Tree] based on some
